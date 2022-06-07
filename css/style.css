@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../animalcrossing.jpg);
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: #a68069;
+}
+.form-restab {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top:100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-restab h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  }
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #a68069;
+  font-family: 'calibri';
+  font-size: 18px;
+  }
+
+.correo:focus {
+    border-bottom: solid #2B2E30 2px;
+}
+
+.form__button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.salir {
+  text-align: center;
+  text-decoration: none;
+  background: #d8af97;
+  padding: 5px 20px;
+  color: #270F3D;
+  font-family: 'calibri';
+  font-size: 14px;
+}
+
+.salir:hover {
+  background: #d8af97;
+}
+
+.enviar {
+    text-align: center;
+    background: #d8af97;
+    padding: 5px 20px;
+    color: #270F3D;
+    border: none;
+    font-family: 'calibri';
+    font-size: 14px;
+    cursor: pointer;
+}
+.enviar:hover {
+  background: #d8af97;
+}
+@media screem and (max-width: 768px) {
+p {
+  font-size: 130%;
+}
